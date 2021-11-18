@@ -1,0 +1,26 @@
+{
+  "name": "hackerbay_round_1",
+  "version": "1.0.0",
+  "description": "hackerbay nodejs task",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm test",
+    "start": "npm start",
+    "lint": "npm lint"
+  },
+  "keywords": [
+    "hackerbay"
+  ],
+  "author": "kingsley umujeyan",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13",
+    "morgan": "^1.10.0"
+  }
+}
