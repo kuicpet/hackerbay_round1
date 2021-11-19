@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "npm test",
-    "start": "npm start",
+    "start": "node server",
+    "server": "nodemon server",
     "lint": "npm lint"
   },
   "keywords": [
@@ -22,5 +23,8 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.13",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
